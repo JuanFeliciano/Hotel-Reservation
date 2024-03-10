@@ -6,14 +6,19 @@
     <title>Home</title>
   </head>
   <body>
-    <div class="Login">
-      <label for="username">Username</label>
-      <input type="text" />
+    <form id="loginForm">
+      <div id="login">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" />
+      </div>
       <br />
       <br />
-      <label for="pass">Password</label>
-      <input type="password" />
-      <button type="submit">Login</button>
-    </div>
+      <div>
+        <label for="pass">Password</label>
+        <input type="password" id="password" name="password" />
+        <button type="submit">Login</button>
+      </div>
+      <script src="UserController.js"></script>
+    </form>
   </body>
 </html>

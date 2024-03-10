@@ -24,11 +24,11 @@ export class UserController {
     });
 
     document
-      .getElementById("login")
+      .getElementById("loginForm")
       ?.addEventListener("submit", function (event) {
         event.preventDefault();
 
-        window.location.href("http://localhost:3300/home");
+        window.location.href = "http://localhost:3300/home";
       });
   }
 }
